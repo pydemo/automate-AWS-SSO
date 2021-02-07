@@ -10,7 +10,7 @@ e=sys.exit
 chrome_options = Options()
 
 
-data_dir=r'C:\Users\alex_\mygit\py_ortho\chrome-data'
+data_dir=r'chrome-data'
 
 
 options = Options()
@@ -96,7 +96,7 @@ if __name__=="__main__":
                 print(env)
                 data=pyperclip.paste()
                 if 1:
-                    fn=join('.creds',f'{env}.txt')
+                    fn=join('.creds',f'{env}.bat')
                     save_creds(fn, data)
                     print(f'"{env}" keys are save to "{fn}"')
                 print('Close popup')
@@ -121,7 +121,7 @@ if __name__=="__main__":
                 print(env)
                 data=pyperclip.paste()
                 if 1:
-                    fn=join('.creds',f'{env}.txt')
+                    fn=join('.creds',f'{env}.bat')
                     save_creds(fn, data)
                     print(f'"{env}" keys are save to "{fn}"')
             

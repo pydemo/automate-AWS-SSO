@@ -1,5 +1,6 @@
 # automate-AWS-SSO
 Automate automate AWS SSO access keys retrieval.
+https://aws.amazon.com/blogs/security/aws-single-sign-on-now-enables-command-line-interface-access-for-aws-accounts-using-corporate-credentials/
 
 ## Login
 Login first time manually 
